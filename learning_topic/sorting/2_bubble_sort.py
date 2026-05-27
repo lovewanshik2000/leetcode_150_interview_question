@@ -17,5 +17,8 @@ def bubble_sort(nums):
 
 # Driver Code
 nums = [5,2,7,3,6,1,4,8,9,0]
-# nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]     # Best Case O(N)
 print(bubble_sort(nums))
+
+# Time Complexity: O(N^2) for AVG/Worst case but Best Case O(N)
+# Space Complexity: O(1)
